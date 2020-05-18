@@ -1,0 +1,2 @@
+crc version: 1.10.0+fa1b1ef
+OpenShift version: 4.4.3 (not embedded in binary)
