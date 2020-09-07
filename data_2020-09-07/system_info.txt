@@ -1,0 +1,1 @@
+Linux rhel8.2-monitoring 4.18.0-193.el8.x86_64 #1 SMP Fri Mar 27 14:35:58 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
