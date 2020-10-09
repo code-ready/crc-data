@@ -1,0 +1,378 @@
+rhel8.2-monitoring
+    description: Computer
+    product: OpenStack Compute
+    vendor: Red Hat
+    version: 17.0.13-7.el7ost
+    serial: 4c4c4544-004b-3410-804b-c2c04f433432
+    width: 64 bits
+    capabilities: smbios-2.8 dmi-2.8 smp vsyscall32
+    configuration: boot=normal family=Virtual Machine uuid=7B096235-261A-D949-A836-7815477F326A
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-firmware
+          description: BIOS
+          vendor: SeaBIOS
+          physical id: 0
+          version: 1.11.0-2.el7
+          date: 04/01/2014
+          size: 96KiB
+     *-cpu:0
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 400
+          bus info: cpu@0
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 0
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:1
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 401
+          bus info: cpu@1
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 1
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:2
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 402
+          bus info: cpu@2
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 2
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:3
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 403
+          bus info: cpu@3
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 3
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:4
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 404
+          bus info: cpu@4
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 4
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:5
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 405
+          bus info: cpu@5
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 5
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:6
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 406
+          bus info: cpu@6
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 6
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-cpu:7
+          description: CPU
+          product: Intel Core Processor (Haswell, no TSX, IBRS)
+          vendor: Intel Corp.
+          physical id: 407
+          bus info: cpu@7
+          version: RHEL 7.6.0 PC (i440FX + PIIX, 1996)
+          slot: CPU 7
+          size: 2GHz
+          capacity: 2GHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl xtopology cpuid tsc_known_freq pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt arat md_clear
+          configuration: cores=1 enabledcores=1 threads=1
+     *-memory
+          description: System Memory
+          physical id: 1000
+          size: 24GiB
+          capabilities: ecc
+          configuration: errordetection=multi-bit-ecc
+        *-bank:0
+             description: DIMM RAM
+             vendor: Red Hat
+             physical id: 0
+             slot: DIMM 0
+             size: 16GiB
+        *-bank:1
+             description: DIMM RAM
+             vendor: Red Hat
+             physical id: 1
+             slot: DIMM 1
+             size: 8GiB
+     *-pci
+          description: Host bridge
+          product: 440FX - 82441FX PMC [Natoma]
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 02
+          width: 32 bits
+          clock: 33MHz
+        *-isa
+             description: ISA bridge
+             product: 82371SB PIIX3 ISA [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1
+             bus info: pci@0000:00:01.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa
+             configuration: latency=0
+        *-ide
+             description: IDE interface
+             product: 82371SB PIIX3 IDE [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ide isa_compat_mode bus_master
+             configuration: driver=ata_piix latency=0
+             resources: irq:0 ioport:1f0(size=8) ioport:3f6 ioport:170(size=8) ioport:376 ioport:c0c0(size=16)
+        *-usb
+             description: USB controller
+             product: 82371SB PIIX3 USB [Natoma/Triton II]
+             vendor: Intel Corporation
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 01
+             width: 32 bits
+             clock: 33MHz
+             capabilities: uhci bus_master
+             configuration: driver=uhci_hcd latency=0
+             resources: irq:11 ioport:c080(size=32)
+           *-usbhost
+                product: UHCI Host Controller
+                vendor: Linux 4.18.0-193.el8.x86_64 uhci_hcd
+                physical id: 1
+                bus info: usb@1
+                logical name: usb1
+                version: 4.18
+                capabilities: usb-1.10
+                configuration: driver=hub slots=2 speed=12Mbit/s
+              *-usb
+                   description: Human interface device
+                   product: QEMU USB Tablet
+                   vendor: QEMU
+                   physical id: 1
+                   bus info: usb@1:1
+                   version: 0.00
+                   serial: 42
+                   capabilities: usb-2.00
+                   configuration: driver=usbhid maxpower=100mA speed=12Mbit/s
+        *-bridge
+             description: Bridge
+             product: 82371AB/EB/MB PIIX4 ACPI
+             vendor: Intel Corporation
+             physical id: 1.3
+             bus info: pci@0000:00:01.3
+             version: 03
+             width: 32 bits
+             clock: 33MHz
+             capabilities: bridge
+             configuration: driver=piix4_smbus latency=0
+             resources: irq:9
+        *-display
+             description: VGA compatible controller
+             product: GD 5446
+             vendor: Cirrus Logic
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: vga_controller rom
+             configuration: driver=cirrus latency=0
+             resources: irq:0 memory:fc000000-fdffffff memory:febd0000-febd0fff memory:c0000-dffff
+        *-network
+             description: Ethernet controller
+             product: Virtio network device
+             vendor: Red Hat, Inc.
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: msix bus_master cap_list rom
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c000(size=64) memory:febd1000-febd1fff memory:fe000000-fe003fff memory:feb80000-febbffff
+           *-virtio0
+                description: Ethernet interface
+                physical id: 0
+                bus info: virtio@0
+                logical name: eth0
+                serial: fa:16:3e:73:49:cd
+                capabilities: ethernet physical
+                configuration: autonegotiation=off broadcast=yes driver=virtio_net driverversion=1.0.0 ip=10.0.100.91 link=yes multicast=yes
+        *-scsi
+             description: SCSI storage controller
+             product: Virtio block device
+             vendor: Red Hat, Inc.
+             physical id: 4
+             bus info: pci@0000:00:04.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: scsi msix bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:11 ioport:c040(size=64) memory:febd2000-febd2fff memory:fe004000-fe007fff
+           *-virtio1
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@1
+                logical name: /dev/vda
+                size: 40GiB (42GB)
+                capabilities: gpt-1.00 partitioned partitioned:gpt
+                configuration: driver=virtio_blk guid=7e3cdfd9-e4c6-44e5-b774-8875b5c717c5 logicalsectorsize=512 sectorsize=512
+              *-volume:0
+                   description: BIOS Boot partition
+                   vendor: EFI
+                   physical id: 1
+                   bus info: virtio@1,1
+                   logical name: /dev/vda1
+                   serial: 213c5a2b-c8d5-49b0-9d3d-0ead758830ab
+                   capacity: 1023KiB
+                   capabilities: nofs
+              *-volume:1
+                   description: Windows FAT volume
+                   vendor: mkfs.fat
+                   physical id: 2
+                   bus info: virtio@1,2
+                   logical name: /dev/vda2
+                   logical name: /boot/efi
+                   version: FAT16
+                   serial: 399c-0f7d
+                   size: 97MiB
+                   capacity: 99MiB
+                   capabilities: boot fat initialized
+                   configuration: FATs=2 filesystem=fat mount.fstype=vfat mount.options=rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=winnt,errors=remount-ro state=mounted
+              *-volume:2
+                   description: EFI partition
+                   physical id: 3
+                   bus info: virtio@1,3
+                   logical name: /dev/vda3
+                   logical name: /
+                   serial: ba8a851d-03b4-4961-b240-c7265cff8fde
+                   capacity: 39GiB
+                   configuration: mount.fstype=xfs mount.options=rw,seclabel,relatime,attr2,inode64,noquota state=mounted
+        *-generic
+             description: Unclassified device
+             product: Virtio memory balloon
+             vendor: Red Hat, Inc.
+             physical id: 5
+             bus info: pci@0000:00:05.0
+             version: 00
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=virtio-pci latency=0
+             resources: irq:10 ioport:c0a0(size=32) memory:fe008000-fe00bfff
+           *-virtio2 UNCLAIMED
+                description: Virtual I/O device
+                physical id: 0
+                bus info: virtio@2
+                configuration: driver=virtio_balloon
+     *-pnp00:00
+          product: PnP device PNP0b00
+          physical id: 1
+          capabilities: pnp
+          configuration: driver=rtc_cmos
+     *-pnp00:01
+          product: PnP device PNP0303
+          physical id: 2
+          capabilities: pnp
+          configuration: driver=i8042 kbd
+     *-pnp00:02
+          product: PnP device PNP0f13
+          physical id: 3
+          capabilities: pnp
+          configuration: driver=i8042 aux
+     *-pnp00:03
+          product: PnP device PNP0700
+          physical id: 4
+          capabilities: pnp
+     *-pnp00:04
+          product: PnP device PNP0501
+          physical id: 5
+          capabilities: pnp
+          configuration: driver=serial
+  *-network:0 DISABLED
+       description: Ethernet interface
+       physical id: 1
+       logical name: crc-nic
+       serial: 52:54:00:fd:be:d0
+       size: 10Mbit/s
+       capabilities: ethernet physical
+       configuration: autonegotiation=off broadcast=yes driver=tun driverversion=1.6 duplex=full link=no multicast=yes port=twisted pair speed=10Mbit/s
+  *-network:1
+       description: Ethernet interface
+       physical id: 2
+       logical name: crc
+       serial: 52:54:00:fd:be:d0
+       capabilities: ethernet physical
+       configuration: broadcast=yes driver=bridge driverversion=2.3 firmware=N/A ip=192.168.130.1 link=yes multicast=yes
+  *-network:2 DISABLED
+       description: Ethernet interface
+       physical id: 3
+       logical name: virbr0-nic
+       serial: 52:54:00:c1:c3:73
+       size: 10Mbit/s
+       capabilities: ethernet physical
+       configuration: autonegotiation=off broadcast=yes driver=tun driverversion=1.6 duplex=full link=no multicast=yes port=twisted pair speed=10Mbit/s
+  *-network:3
+       description: Ethernet interface
+       physical id: 4
+       logical name: vnet0
+       serial: fe:fd:fc:07:21:82
+       size: 10Mbit/s
+       capabilities: ethernet physical
+       configuration: autonegotiation=off broadcast=yes driver=tun driverversion=1.6 duplex=full link=yes multicast=yes port=twisted pair speed=10Mbit/s
+  *-network:4
+       description: Ethernet interface
+       physical id: 5
+       logical name: virbr0
+       serial: 52:54:00:c1:c3:73
+       capabilities: ethernet physical
+       configuration: broadcast=yes driver=bridge driverversion=2.3 firmware=N/A ip=192.168.122.1 link=no multicast=yes
