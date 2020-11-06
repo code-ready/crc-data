@@ -1,0 +1,139 @@
+Name:               crc-h66l2-master-0
+Roles:              master,worker
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=crc-h66l2-master-0
+                    kubernetes.io/os=linux
+                    node-role.kubernetes.io/master=
+                    node-role.kubernetes.io/worker=
+                    node.openshift.io/os_id=rhcos
+Annotations:        machine.openshift.io/machine: openshift-machine-api/crc-h66l2-master-0
+                    machineconfiguration.openshift.io/currentConfig: rendered-master-a5c046c569e046af05a090d6442de568
+                    machineconfiguration.openshift.io/desiredConfig: rendered-master-a5c046c569e046af05a090d6442de568
+                    machineconfiguration.openshift.io/reason: 
+                    machineconfiguration.openshift.io/state: Done
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Mon, 26 Oct 2020 05:09:43 +0100
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  crc-h66l2-master-0
+  AcquireTime:     <unset>
+  RenewTime:       Fri, 06 Nov 2020 01:42:43 +0100
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Fri, 06 Nov 2020 01:41:17 +0100   Fri, 06 Nov 2020 01:36:17 +0100   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Fri, 06 Nov 2020 01:41:17 +0100   Fri, 06 Nov 2020 01:36:17 +0100   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Fri, 06 Nov 2020 01:41:17 +0100   Fri, 06 Nov 2020 01:36:17 +0100   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Fri, 06 Nov 2020 01:41:17 +0100   Fri, 06 Nov 2020 01:36:17 +0100   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  192.168.126.11
+  Hostname:    crc-h66l2-master-0
+Capacity:
+  cpu:                4
+  ephemeral-storage:  31953900Ki
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             8762756Ki
+  pods:               250
+Allocatable:
+  cpu:                3500m
+  ephemeral-storage:  28374972368
+  hugepages-1Gi:      0
+  hugepages-2Mi:      0
+  memory:             7611780Ki
+  pods:               250
+System Info:
+  Machine ID:                                 1c065f1a68b24879abd333c2f7b986b0
+  System UUID:                                1915303c-8e83-4b14-a3e6-ee4d6c2d96e9
+  Boot ID:                                    02a00ebb-4248-4755-8559-6adfacc1b9b5
+  Kernel Version:                             4.18.0-193.24.1.el8_2.dt1.x86_64
+  OS Image:                                   Red Hat Enterprise Linux CoreOS 46.82.202010091720-0 (Ootpa)
+  Operating System:                           linux
+  Architecture:                               amd64
+  Container Runtime Version:                  cri-o://1.19.0-20.rhaos4.6.git97d715e.el8
+  Kubelet Version:                            v1.19.0+d59ce34
+  Kube-Proxy Version:                         v1.19.0+d59ce34
+PodCIDR:                                      10.116.0.0/24
+PodCIDRs:                                     10.116.0.0/24
+Non-terminated Pods:                          (59 in total)
+  Namespace                                   Name                                                     CPU Requests  CPU Limits  Memory Requests  Memory Limits  AGE
+  ---------                                   ----                                                     ------------  ----------  ---------------  -------------  ---
+  openshift-apiserver-operator                openshift-apiserver-operator-b8bcd86cf-tvp4k             10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-apiserver                         apiserver-56ff959467-d4dpz                               110m (3%)     0 (0%)      250Mi (3%)       0 (0%)         5m27s
+  openshift-authentication-operator           authentication-operator-6cd54d4895-dj5sl                 10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-authentication                    oauth-openshift-59df89b4dc-cqrxd                         10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-authentication                    oauth-openshift-59df89b4dc-sd8vt                         10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-cluster-machine-approver          machine-approver-5cd4c8656b-pbg6r                        20m (0%)      0 (0%)      70Mi (0%)        0 (0%)         10d
+  openshift-cluster-node-tuning-operator      cluster-node-tuning-operator-69d69f6546-wb86c            10m (0%)      0 (0%)      20Mi (0%)        0 (0%)         10d
+  openshift-cluster-node-tuning-operator      tuned-4xc8w                                              10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-cluster-samples-operator          cluster-samples-operator-66b5c8685-bz8st                 20m (0%)      0 (0%)      0 (0%)           0 (0%)         10d
+  openshift-cluster-version                   cluster-version-operator-65b9f9d496-25fdq                20m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-config-operator                   openshift-config-operator-7c65574449-ltbb6               10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-console-operator                  console-operator-b944ff564-h7phr                         10m (0%)      0 (0%)      100Mi (1%)       0 (0%)         10d
+  openshift-console                           console-68bf6c7d54-7wck2                                 10m (0%)      0 (0%)      100Mi (1%)       0 (0%)         10d
+  openshift-console                           console-68bf6c7d54-f8vm2                                 10m (0%)      0 (0%)      100Mi (1%)       0 (0%)         10d
+  openshift-console                           downloads-85df645c7c-gc685                               10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-console                           downloads-85df645c7c-vl6ql                               10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-controller-manager-operator       openshift-controller-manager-operator-8476766cf-xntwh    10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-controller-manager                controller-manager-7dmkt                                 100m (2%)     0 (0%)      100Mi (1%)       0 (0%)         3m
+  openshift-dns-operator                      dns-operator-59c89fbb97-jrhwq                            20m (0%)      0 (0%)      40Mi (0%)        0 (0%)         10d
+  openshift-dns                               dns-default-kfjtk                                        65m (1%)      0 (0%)      110Mi (1%)       512Mi (6%)     10d
+  openshift-etcd-operator                     etcd-operator-5996cd8d48-bf7pw                           10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-etcd                              etcd-crc-h66l2-master-0                                  430m (12%)    0 (0%)      860Mi (11%)      0 (0%)         10d
+  openshift-etcd                              etcd-quorum-guard-644f5747b8-rlpbs                       10m (0%)      0 (0%)      5Mi (0%)         0 (0%)         10d
+  openshift-image-registry                    cluster-image-registry-operator-8455b85cc6-vswx5         10m (0%)      0 (0%)      0 (0%)           0 (0%)         10d
+  openshift-image-registry                    image-registry-794fd8d884-s45rl                          100m (2%)     0 (0%)      256Mi (3%)       0 (0%)         3m22s
+  openshift-image-registry                    node-ca-t8xhg                                            10m (0%)      0 (0%)      10Mi (0%)        0 (0%)         10d
+  openshift-ingress-operator                  ingress-operator-6d4c4d74f9-2jgwv                        20m (0%)      0 (0%)      40Mi (0%)        0 (0%)         10d
+  openshift-ingress                           router-default-7467bc9b7c-9db7s                          100m (2%)     0 (0%)      256Mi (3%)       0 (0%)         10d
+  openshift-kube-apiserver-operator           kube-apiserver-operator-5c5fc96767-hpbbm                 10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-kube-apiserver                    kube-apiserver-crc-h66l2-master-0                        340m (9%)     0 (0%)      1224Mi (16%)     0 (0%)         2m29s
+  openshift-kube-apiserver                    revision-pruner-8-crc-h66l2-master-0                     150m (4%)     150m (4%)   200M (2%)        200M (2%)      5s
+  openshift-kube-controller-manager-operator  kube-controller-manager-operator-86f4f896b9-m7dt9        10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-kube-controller-manager           kube-controller-manager-crc-h66l2-master-0               100m (2%)     0 (0%)      500Mi (6%)       0 (0%)         10d
+  openshift-kube-scheduler-operator           openshift-kube-scheduler-operator-64d565dc97-jxzdw       0 (0%)        0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-kube-scheduler                    openshift-kube-scheduler-crc-h66l2-master-0              20m (0%)      0 (0%)      100Mi (1%)       0 (0%)         10d
+  openshift-kube-storage-version-migrator     migrator-b8d88f977-2qxrz                                 100m (2%)     0 (0%)      200Mi (2%)       0 (0%)         10d
+  openshift-marketplace                       certified-operators-nzbjx                                10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-marketplace                       certified-operators-zvxv7                                10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-marketplace                       community-operators-cqglt                                10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-marketplace                       community-operators-zc2wv                                10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-marketplace                       marketplace-operator-67d858bf7d-zbvfs                    10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-marketplace                       redhat-marketplace-lvrgf                                 10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-marketplace                       redhat-marketplace-w4qfj                                 10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-marketplace                       redhat-operators-lhcg8                                   10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-marketplace                       redhat-operators-mvwn5                                   10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         9d
+  openshift-multus                            multus-admission-controller-8srp7                        20m (0%)      0 (0%)      20Mi (0%)        0 (0%)         10d
+  openshift-multus                            multus-z27dj                                             10m (0%)      0 (0%)      150Mi (2%)       0 (0%)         10d
+  openshift-multus                            network-metrics-daemon-d85dw                             20m (0%)      0 (0%)      120Mi (1%)       0 (0%)         10d
+  openshift-network-operator                  network-operator-787d8b758c-jbr8f                        10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-oauth-apiserver                   apiserver-59664bdff4-gm2d5                               150m (4%)     0 (0%)      200Mi (2%)       0 (0%)         10d
+  openshift-operator-lifecycle-manager        catalog-operator-5b9bb86df6-7r568                        10m (0%)      0 (0%)      80Mi (1%)        0 (0%)         10d
+  openshift-operator-lifecycle-manager        olm-operator-5f9964dfbf-sjtsm                            10m (0%)      0 (0%)      160Mi (2%)       0 (0%)         10d
+  openshift-operator-lifecycle-manager        packageserver-687cfb85d6-9gklh                           0 (0%)        0 (0%)      0 (0%)           0 (0%)         10d
+  openshift-operator-lifecycle-manager        packageserver-687cfb85d6-mnpp8                           0 (0%)        0 (0%)      0 (0%)           0 (0%)         10d
+  openshift-sdn                               ovs-4wd54                                                100m (2%)     0 (0%)      400Mi (5%)       0 (0%)         10d
+  openshift-sdn                               sdn-controller-66bwt                                     10m (0%)      0 (0%)      50Mi (0%)        0 (0%)         10d
+  openshift-sdn                               sdn-zxs6t                                                110m (3%)     0 (0%)      220Mi (2%)       0 (0%)         10d
+  openshift-service-ca-operator               service-ca-operator-56d79f985d-xffxg                     10m (0%)      0 (0%)      80Mi (1%)        0 (0%)         10d
+  openshift-service-ca                        service-ca-544dc587b5-tx9l4                              10m (0%)      0 (0%)      120Mi (1%)       0 (0%)         10d
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests          Limits
+  --------           --------          ------
+  cpu                2465m (70%)       150m (4%)
+  memory             7687881216 (98%)  736870912 (9%)
+  ephemeral-storage  0 (0%)            0 (0%)
+  hugepages-1Gi      0 (0%)            0 (0%)
+  hugepages-2Mi      0 (0%)            0 (0%)
+Events:
+  Type    Reason                   Age                   From     Message
+  ----    ------                   ----                  ----     -------
+  Normal  Starting                 7m10s                 kubelet  Starting kubelet.
+  Normal  NodeAllocatableEnforced  7m10s                 kubelet  Updated Node Allocatable limit across pods
+  Normal  NodeHasSufficientMemory  7m9s (x8 over 7m10s)  kubelet  Node crc-h66l2-master-0 status is now: NodeHasSufficientMemory
+  Normal  NodeHasNoDiskPressure    7m9s (x8 over 7m10s)  kubelet  Node crc-h66l2-master-0 status is now: NodeHasNoDiskPressure
+  Normal  NodeHasSufficientPID     7m9s (x7 over 7m10s)  kubelet  Node crc-h66l2-master-0 status is now: NodeHasSufficientPID
