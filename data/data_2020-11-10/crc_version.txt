@@ -1,0 +1,2 @@
+CodeReady Containers version: 1.18.0+7a24683
+OpenShift version: 4.6.1 (not embedded in executable)
