@@ -1,0 +1,2 @@
+CodeReady Containers version: 1.19.0+8c6c3f3
+OpenShift version: 4.7.0-0.nightly-2020-11-18-085225 (not embedded in executable)
